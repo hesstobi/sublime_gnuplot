@@ -1,4 +1,4 @@
-sublime_gnuplot
+Sublime Gnuplot
 ===============
 
-Gnuplot Backage for Sublime TExt
+Simple package to provide syntax higlighting and a build command for gnuplot
