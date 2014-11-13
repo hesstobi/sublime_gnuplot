@@ -8,6 +8,7 @@
 		<string>gnuplot</string>
 		<string>gnu</string>
 		<string>plot</string>
+		<string>plt</string>
 	</array>
 	<key>keyEquivalent</key>
 	<string>^~G</string>
@@ -44,9 +45,9 @@
 				</dict>
 			</dict>
 			<key>comment</key>
-			<string>gnuplot iteration statement. 
+			<string>gnuplot iteration statement.
 			There are two forms:
-			    numeric [n = 1:2{:inc}] 
+			    numeric [n = 1:2{:inc}]
 			    string based [str in "x y z"]
 			    but both can also iterate over lists etc, so this is kept loose.</string>
 			<key>end</key>
