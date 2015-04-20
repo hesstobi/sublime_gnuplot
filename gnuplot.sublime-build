@@ -3,5 +3,4 @@
 	"file_regex": "^\"([^\"]+)\", line ([0-9]+): (.+)$",
 	"working_dir": "${project_path:${folder}}",
 	"selector": "source.gnuplot"
-	
 }
