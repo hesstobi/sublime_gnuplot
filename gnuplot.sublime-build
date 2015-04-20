@@ -1,5 +1,6 @@
 {
-	"cmd": ["gnuplot", "$file"],
+	"cmd": ["gnuplot", "-p", "$file"],
 	"working_dir": "${project_path:${folder}}",
 	"selector": "source.gnuplot"
+	"file_regex": "^\"([^\"]+)\", line ([0-9]+): (.+)$"
 }
