@@ -4,6 +4,7 @@ This package aims to provide a support for creating nice figures with gnuplot in
 * Syntax hilighting
 * Script execution -- pressing `cmd+b` on Mac OS X, `ctrl+b` on Linux/Windows
 * Toggle Comments -- pressing  `cmd+/` on Mac OS X, `ctrl+/` on Linux/Windows [Leandro Heck](https://github.com/leoheck)
+* Jump to the location of an error, should one occur when running gnuplot [AJMansfield](https://github.com/AJMansfield)
 
 # Installation
 
