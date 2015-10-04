@@ -188,7 +188,7 @@
 			<key>comment</key>
 			<string>missuse of scopes alert! Just for pretty colours</string>
 			<key>match</key>
-			<string>\b(cd|call|clear|exit|unset|plot|splot|help|load|pause|quit|fit|replot|ifFIT_LIMIT|FIT_MAXITER|FIT_START_LAMBDA|FIT_LAMBDA_FACTOR|FIT_LOG|FIT_SCRIPT|print|pwd|reread|reset|save|show|test|!|functions|var)\b</string>
+			<string>\b(cd|call|clear|exit|plot|splot|help|load|pause|quit|fit|replot|if|FIT_LIMIT|FIT_MAXITER|FIT_START_LAMBDA|FIT_LAMBDA_FACTOR|FIT_LOG|FIT_SCRIPT|print|pwd|reread|reset|save|show|test|!|functions|var)\b</string>
 			<key>name</key>
 			<string>keyword.other.command.gnuplot</string>
 		</dict>
@@ -329,7 +329,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>\b(set)\b\s*(?!\b(terminal|key|for)\b)</string>
+			<string>\b(set|unset)\b\s*(?!\b(terminal|key|for)\b)</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
