@@ -273,7 +273,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>\b(set)\b\s*\b(terminal)\b</string>
+			<string>\b(set)\b\s*\b(terminal|term)\b</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
