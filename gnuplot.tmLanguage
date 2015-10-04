@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>gp</string>
+		<string>gpl</string>
 		<string>gnuplot</string>
 		<string>gnu</string>
 		<string>plot</string>
