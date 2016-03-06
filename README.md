@@ -1,10 +1,11 @@
 # Sublime Gnuplot
 
 This package aims to provide a support for creating nice figures with gnuplot in Sublime-Text. So far, various features have been implemented, including:
-* Syntax hilighting
+* Syntax highlighting
 * Script execution -- pressing `cmd+b` on Mac OS X, `ctrl+b` on Linux/Windows
 * Toggle Comments -- pressing  `cmd+/` on Mac OS X, `ctrl+/` on Linux/Windows [Leandro Heck](https://github.com/leoheck)
 * Jump to the location of an error, should one occur when running gnuplot [AJMansfield](https://github.com/AJMansfield)
+* Autocomplition for set [joebarker87](https://github.com/joebarker87)
 
 # Installation
 
@@ -12,7 +13,7 @@ Sublime Gnuplot can be installed via [Package Controll](https://sublime.wbond.ne
 
 ## Installing via Package Control
 
-To install SublimeLinter via [Package Controll](https://sublime.wbond.net/installation), follow these steps:
+To install Sublime Gnuplot via [Package Controll](https://sublime.wbond.net/installation), follow these steps:
 
 1. Open the Command Palette (`cmd+shift+p` on Mac OS X, `ctrl+shift+p` on Linux/Windows).
 2. Type `install`  and select `Package Control: Install Package` from the Command Palette. There will be a pause of a few seconds while Package Control finds the available packages.
