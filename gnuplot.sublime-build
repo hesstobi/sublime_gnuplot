@@ -1,6 +1,10 @@
 {
 	"cmd": ["gnuplot", "--persist", "$file"],
+	"selector": "source.gnuplot",
 	"file_regex": "^\"([^\"]+)\", line ([0-9]+): (.+)$",
 	"working_dir": "${project_path:${folder}}",
-	"selector": "source.gnuplot"
+	// Default path to gnuplot in Windows; it would be nice, if you add setting "gnuplot_path"
+	"windows": {
+		"cmd": ["C:\\Program Files\\gnuplot\\bin\\gnuplot.exe", "--persist", "$file"]
+	}
 }
