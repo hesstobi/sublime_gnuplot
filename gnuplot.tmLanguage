@@ -188,13 +188,13 @@
 			<key>comment</key>
 			<string>missuse of scopes alert! Just for pretty colours</string>
 			<key>match</key>
-			<string>\b(cd|call|clear|exit|plot|splot|help|load|pause|quit|fit|replot|if|FIT_LIMIT|FIT_MAXITER|FIT_START_LAMBDA|FIT_LAMBDA_FACTOR|FIT_LOG|FIT_SCRIPT|print|pwd|reread|reset|save|show|test|!|functions|var)\b</string>
+			<string>\b(cd|call|clear|else|exit|plot|splot|help|load|pause|quit|fit|replot|if|FIT_LIMIT|FIT_MAXITER|FIT_START_LAMBDA|FIT_LAMBDA_FACTOR|FIT_LOG|FIT_SCRIPT|print|pwd|reread|reset|save|show|test|!|functions|var)\b</string>
 			<key>name</key>
 			<string>keyword.other.command.gnuplot</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(abs|acos|acosh|arg|asin|asinh|atan|atan2|atanh|besj0|besj1|besy0|besy1|ceil|cos|cosh|erf|erfc|exp|floor|gamma|ibeta|igamma|imag|int|inverf|invnorm|lambertw|lgamma|log|log10|norm|rand|real|sgn|sin|sinh|sqrt|tan|tanh)\b</string>
+			<string>\b(abs|acos|acosh|arg|asin|asinh|atan|atan2|atanh|besj0|besj1|besy0|besy1|ceil|cos|cosh|erf|erfc|exists|exp|floor|gamma|ibeta|igamma|imag|int|inverf|invnorm|lambertw|lgamma|log|log10|norm|rand|real|sgn|sin|sinh|sqrt|tan|tanh)\b</string>
 			<key>name</key>
 			<string>support.function.gnuplot</string>
 		</dict>
@@ -393,7 +393,7 @@
 			<key>match</key>
 			<string>\s*(==|~=|&gt;|&gt;=|&lt;|&lt;=|&amp;|&amp;&amp;|:|\||\|\||\+|-|\*|\.\*|/|\./|\\|\.\\|\^|\.\^)\s*</string>
 			<key>name</key>
-			<string>keyword.operator.symbols.matlab</string>
+			<string>keyword.operator.symbols.gnuplot</string>
 		</dict>
 		<key>string_double</key>
 		<dict>
